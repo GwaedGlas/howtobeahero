@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:howtobeahero/resources/R.dart';
 
 void main() {
   runApp(const MyApp());
@@ -51,6 +52,8 @@ class _MyHomePageState extends State<MyHomePage> {
   int _counter = 0;
 
   void _incrementCounter() {
+    R.img.dice.roll0;
+    R.img.icons.account;
     setState(() {
       // This call to setState tells the Flutter framework that something has
       // changed in this State, which causes it to rerun the build method below
